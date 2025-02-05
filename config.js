@@ -129,11 +129,11 @@ global.developer = 'https://wa.me/message/DCAK67ON3XVOG1' //contact
 
 
 //Sticker WM
-global.wm = process.env.BOT_NAME
+global.wm = process.env.RMS_V1
 global.botname = process.env.BOT_NAME
-global.princebot = '🛡️𝘗𝘙𝘐𝘕𝘊𝘌-𝘉𝘖𝘛-𝘔𝘋🛡️'
+global.princebot = '🛡️RMS-𝘉𝘖𝘛-𝘔𝘋🛡️'
 global.packname = process.env.PACK_NAME
-global.author = 'Prince♥️' 
+global.author = 'RMS♥️' 
 global.princeig = 'https://www.instagram.com' 
 global.princegp = 'https://whatsapp.com/channel/0029VaKNbWkKbYMLb61S1v11'
 global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
@@ -161,7 +161,7 @@ global.eror = '```404 error```'
 
 dotenv.config()
 
-const ownervb = process.env.OWNER_NUMBER;
+const ownervb = process.env.2349039951951;
 if (!ownervb){
    throw new Error("OWNER_NUMBER var env is not set please set it e.g 923092668108,Prince");
 }
