@@ -161,9 +161,9 @@ global.eror = '```404 error```'
 
 dotenv.config()
 
-const ownervb = process.env.2349039951951;
+const ownervb = process.env.2349039951951,RMS";
 if (!ownervb){
-   throw new Error("OWNER_NUMBER var env is not set please set it e.g 923092668108,Prince");
+   throw new Error("OWNER_NUMBER var env is not set please set it e.g 2349039951951,RMS");
 }
 
 const ownerlist = ownervb.split(',');
